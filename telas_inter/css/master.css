@@ -1,0 +1,63 @@
+body {
+    background-color: #ffffe6;
+}
+
+.mg_master {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.mg_top {
+    margin-top: 15px;
+}
+.primeiro_menu {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.segundo_menu {
+	border-right: 1px solid black;
+	padding: 5px;
+}
+
+.item_menu {
+	margin-right: 15px;
+}
+
+.mg_nav {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.mg_supra {
+	margin-top: 200px;
+}
+
+.supra_um {
+	font-size: 100px;
+	font-weight: bold;
+}
+
+.supra_dois {
+	font-size: 100px;
+}
+
+.cor {
+	background-color: #7FFFD4;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	padding-bottom: 300px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.selecao {
+	margin-top: 25px;
+}
+
+.producao {
+	margin-bottom: 200px;
+	border: 1px solid #778899;
+	padding-bottom: 20px;
+}

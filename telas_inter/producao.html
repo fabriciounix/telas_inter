@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Controle de Estoque Almoxarifado - Tela de Produção</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	 <link rel="stylesheet" type="text/css" href="css/master.css" />
+</head>
+<body>
+	<div class="container marg">
+        <div class="row mg_master">
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                <img src="img/limao.png" width="50px">
+                <span class="titulo">SUPRACITRUS</span>
+            </div>
+        </div>
+        <form>
+            <div class="row mg_master">
+                <div class="col-12">
+                    <uL class="nav">
+                        <li class="nav-item item_menu">Bem vindo, Usuário!</li>
+                        <li class="nav-item item_menu"><a href="index.html">Sair</a></li>
+                        <li class="nav-item item_menu"><a href="principal.html">Home</a></li>
+                    </uL>
+                </div>
+            </div>
+            <div class="row mg_master">
+                <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                     <button type="submit" class="btn btn-primary">Novo</button>
+                     <button type="submit" class="btn btn-success">Atualizar</button>
+                     <button type="submit" class="btn btn-danger">Excluir</button>
+                     <button type="button" class="btn btn-light">Consultar</button>
+                </div>
+                 <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                    <label  class="form-label">Data</label>
+                    <input type="text" class="form-control" >
+                </div>
+            </div>
+            <div class="row">
+                 <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                     <label  class="form-label">Código de Produção</label>
+                     <input type="text" class="form-control" disabled="disabled">
+                 </div>
+            </div>
+             <div class="row">
+                 <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                     <label  class="form-label">Nome do Funcionário</label>
+                     <input type="text" class="form-control" >
+                 </div>
+                 <div class="col-sm-12 col-md-6 col-lg-6">
+                     <button type="button" class="btn btn-info">Buscar</button>
+                 </div>
+            </div>
+             <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                    <button type="button" class="btn btn-secondary mg_top">Adicionar Itens</button>
+                </div>
+             </div>
+             <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                  <label  class="form-label">Produtos Produção</label>
+                </div>
+             </div>
+             <div class="row producao">
+                 <div class="col-sm-8 col-md-8 col-lg-8 form-group">
+                  <label  class="form-label">Descrição</label>
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2 form-group">
+                  <label  class="form-label">Qtd</label>
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="col-sm-8 col-md-8 col-lg-8 form-group mg_top">
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2 form-group mg_top">
+                  <input type="text" class="form-control" >
+                </div>
+                 <div class="col-sm-8 col-md-8 col-lg-8 form-group mg_top">
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2 form-group mg_top">
+                  <input type="text" class="form-control" >
+                </div>
+                 <div class="col-sm-8 col-md-8 col-lg-8 form-group mg_top">
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2 form-group mg_top">
+                  <input type="text" class="form-control" >
+                </div>
+                 <div class="col-sm-8 col-md-8 col-lg-8 form-group mg_top">
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2 form-group mg_top">
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 form-group">
+                     <label  class="form-label">Observaçoes</label>
+                     <textarea class="form-control" rows="3"></textarea>
+                 </div>
+                 <div class="col-sm-12 col-md-6 col-lg-6 form-group mg_top">
+                    <label  class="form-label">Total de Notas</label>
+                    <input type="text" class="form-control" >
+                 </div>
+                 <div class="col-sm-12 col-md-6 col-lg-6">
+                     <select class="form-select mg_top" aria-label="Selecionar">
+                            <option selected>Status</option>
+                            <option value="1">Concluído</option>
+                            <option value="2">Cancelado</option>
+                    </select>
+                 </div>
+                 <div class="col-sm-12 col-md-6 col-lg-6">
+                     <button type="button" class="btn btn-light">Imprimir</button>
+                     <button type="button" class="btn btn-light">Realizar Produção</button>
+                 </div>
+             </div>
+            
+        </form>
+		
+		
+        
+	<div>	
+</body>
+</html>
